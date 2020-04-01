@@ -14,30 +14,30 @@ object Transformation {
       .load(path)
   }
 
-  def personPerCityWithDataFrame(personneDF: DataFrame, city: String) : DataFrame = {
-    personneDF
+  def personPerCityWithDataFrame(personDF: DataFrame, city: String) : DataFrame = {
+    personDF
       .filter(person=>person.getString(3) == city)
   }
 
-  def countPersonPerCity(personneDF: DataFrame) : DataFrame = {
-      personneDF
-      .groupBy("ville")
-      .count()
+  def countPersonPerCity(personDF: DataFrame) : DataFrame = {
+      personDF
+        .groupBy("ville")
+        .count()
   }
 
-  def DatasetToDataFrame(personneDF: DataFrame) : Dataset[Person] = {
-    personneDF
+  def DatasetToDataFrame(personDF: DataFrame) : Dataset[Person] = {
+    personDF
       .map(person => Person(person.getString(0),person.getString(1),person.getString(2),person.getString(3)))
 
   }
 
-   def personPerCityWithDataset(personneDS: Dataset[Person], city: String) : Dataset[Person] = {
-     personneDS
+   def personPerCityWithDataset(personDS: Dataset[Person], city: String) : Dataset[Person] = {
+     personDS
       .filter(person => person.city == city)
   }
 
-  def personPerCityWithSparkSQL(personneDS: Dataset[Person], city: String)(implicit spark: SparkSession) : DataFrame = {
-    personneDS.createOrReplaceTempView("person")
+  def personPerCityWithSparkSQL(personDS: Dataset[Person], city: String)(implicit spark: SparkSession) : DataFrame = {
+    personDS.createOrReplaceTempView("person")
 
     spark.sql(
       """
@@ -49,8 +49,8 @@ object Transformation {
 
   }
 
-  def countPersonPerCityWithSparkSQL(personneDS: Dataset[Person])(implicit spark: SparkSession) : DataFrame = {
-    personneDS.createOrReplaceTempView("person")
+  def countPersonPerCityWithSparkSQL(personDS: Dataset[Person])(implicit spark: SparkSession) : DataFrame = {
+    personDS.createOrReplaceTempView("person")
 
     spark.sql(
       """
