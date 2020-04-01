@@ -13,12 +13,7 @@
           .master("local[*]")
           .getOrCreate()
     
-**résultat :**
 
-![Alt Text](https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/images/countPersonCity.PNG)
-
-! [Image de personDF](https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/images/countPersonCity.PNG)
-               
 **Builder** : qui est un constructeur pour la création de la **SparkSession** 
 **Master** : permet de définir l’URL principale de Spark à laquelle se connecter, dans notre exemple c’est « local » pour s'exécuter localement
 **getOrCreat** : c’est pour obtenir la sparkSession si elle existe ou bien la créer si elle n’existe pas  
@@ -44,14 +39,17 @@ Voici quelques exemples de transformation et de calculs :
 
 **résultat :**
  
-! [Image de personDF] 
-(https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/personDF.png)
+![](https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/images/personDF.PNG)
           
 **Exemple 2 :** 
 	On veut avoir que les personnes qui habitent à paris, pour cela on va filtrer notre DataFrame.
 
      personDF
           .filter(person=>person.getString(3) == city)
+          
+**résultat :**
+ 
+![](https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/images/personParis.PNG)
           
 **Exemple 3 :** 
 	On veut avoir le nombre de personnes qui habitent dans chaque ville, pour cela on va grouper par ville « groupe By » et puis faire un « count ».
@@ -63,8 +61,7 @@ Voici quelques exemples de transformation et de calculs :
 
 **résultat :**
  
-! [Image de personDF] 
-(https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/personDF.png)
+![](https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/images/countPersonCity.PNG)
  
 ## Dataset 
 
@@ -82,10 +79,6 @@ Toujours avec le même fichier csvvoici quelques exemples de transformation et d
     
     implicit val encdPersonne = Encoders.product[Person]
  
-**résultat :**
- 
-! [Image de personDF] 
-(https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/personDF.png)
  
 2.Passé d’une Dataframe de « row » a un Dataset de « Personne »
    
@@ -94,8 +87,7 @@ Toujours avec le même fichier csvvoici quelques exemples de transformation et d
  
 **résultat :**
    
-! [Image de personDF] 
-(https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/personDF.png)
+![](https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/images/personParisDS.PNG)
  
 Exemple 2 : 
 
@@ -106,8 +98,7 @@ Avoir que les personnes qui habitent à Paris, pour cela on va filtrer notre Dat
  
 **résultat :**
    
-! [Image de personDF] 
-(https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/personDF.png)
+![](https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/images/personParisDS.PNG)
         
 ## Spark SQL 
 **Spark SQL :** est un module d’Apache Spark qui permet de travailler avec des données structurées il consiste à mélanger des programmes spark avec des requêtes SQL 
@@ -129,8 +120,7 @@ Reprennent les exemples précédents et les faire en spark SQL
  
 **résultat :**
  
-! [Image de personDF] 
-(https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/personDF.png)
+![](https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/images/personParisSQL.PNG)
  
 3.	Avoir le nombre de personnes qui habitent dans chaque ville : 
 
@@ -144,6 +134,5 @@ Reprennent les exemples précédents et les faire en spark SQL
 
 **résultat :**
  
-! [Image de personDF] 
-(https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/personDF.png)
+![](https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/images/countPersonCitySQL.PNG)
  
