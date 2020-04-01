@@ -7,12 +7,12 @@
 **SparkSession** est le point d’entrée dans L’API spark et toutes ses fonctionnalités 
 
 **Creation de la SparkSession avec scala** : 
-
+     `` `scala
     implicit val spark: SparkSession = SparkSession
           .builder()
           .master("local[*]")
           .getOrCreate()
-    
+    `` ''
 
 **Builder** : qui est un constructeur pour la création de la **SparkSession** 
 **Master** : permet de définir l’URL principale de Spark à laquelle se connecter, dans notre exemple c’est « local » pour s'exécuter localement
