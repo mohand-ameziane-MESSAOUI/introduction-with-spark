@@ -115,7 +115,6 @@ Reprennent les exemples précédents et les faire en spark SQL
             select *
             from person
             where city = "paris"
-            
             """.stripMargin)
  
 **résultat :**
@@ -128,7 +127,6 @@ Reprennent les exemples précédents et les faire en spark SQL
             select city, count(*) as count
             from person
             group by city
-            
             """.stripMargin)
             
 
