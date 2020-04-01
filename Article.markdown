@@ -122,7 +122,11 @@ Reprennent les exemples précédents et les faire en spark SQL
 
     `` ''
      spark
-        .sql("""select city, count(*) as count from person group by city""".stripMargin)
+        .sql("""
+        |select city, count(*) as count 
+        |from person 
+        |group by city
+        |""".stripMargin)
     `` ''    
 
 **résultat :**
