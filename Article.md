@@ -7,6 +7,7 @@
 **SparkSession** est le point d’entrée dans L’API spark et toutes ses fonctionnalités 
 
 **Creation de la SparkSession avec scala** : 
+
      `` `scala
     implicit val spark: SparkSession = SparkSession
           .builder()
