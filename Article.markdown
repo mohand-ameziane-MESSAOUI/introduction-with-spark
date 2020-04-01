@@ -110,12 +110,7 @@ Reprennent les exemples précédents et les faire en spark SQL
     
 2.	Avoir que les personnes qui habitent à Paris :
 
-    spark.sql(
-          """
-            select *
-            from person
-            where city = "paris"
-            """.stripMargin)
+    spark.sql(""" select * from person where city = "paris" """.stripMargin)
  
 **résultat :**
  
@@ -123,11 +118,7 @@ Reprennent les exemples précédents et les faire en spark SQL
  
 3.	Avoir le nombre de personnes qui habitent dans chaque ville : 
 
-     spark.sql("""
-            select city, count(*) as count
-            from person
-            group by city
-            """.stripMargin)
+     spark.sql(""" select city, count(*) as count from person group by city """.stripMargin)
             
 
 **résultat :**
