@@ -15,9 +15,9 @@
     
 **résultat :**
 
-![Alt Text](/images/personDF.png)
+![Alt Text](https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/images/countPersonCity.PNG)
 
-! [Image de personDF](https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/tree/master/images/personDF.png)
+! [Image de personDF](https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/images/countPersonCity.PNG)
                
 **Builder** : qui est un constructeur pour la création de la **SparkSession** 
 **Master** : permet de définir l’URL principale de Spark à laquelle se connecter, dans notre exemple c’est « local » pour s'exécuter localement
