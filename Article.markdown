@@ -7,13 +7,12 @@
 **SparkSession** est le point d’entrée dans L’API spark et toutes ses fonctionnalités 
 
 **Creation de la SparkSession avec scala** : 
-
-     `` `scala
+    
     implicit val spark: SparkSession = SparkSession
           .builder()
           .master("local[*]")
           .getOrCreate()
-    `` ''
+    
 
 **Builder** : qui est un constructeur pour la création de la **SparkSession** 
 **Master** : permet de définir l’URL principale de Spark à laquelle se connecter, dans notre exemple c’est « local » pour s'exécuter localement
@@ -113,11 +112,11 @@ Reprennent les exemples précédents et les faire en spark SQL
 
     spark.sql(
           """
-            |select *
-            |from person
-            |where city = "paris"
-            |
-            |""".stripMargin)
+            select *
+            from person
+            where city = "paris"
+            
+            """.stripMargin)
  
 **résultat :**
  
@@ -125,15 +124,13 @@ Reprennent les exemples précédents et les faire en spark SQL
  
 3.	Avoir le nombre de personnes qui habitent dans chaque ville : 
 
-     `` `sql
-     spark.sql(
-          """
-            |select city, count(*) as count
-            |from person
-            |group by city
-            |
-            |""".stripMargin)
-            `` ''
+     spark.sql("""
+            select city, count(*) as count
+            from person
+            group by city
+            
+            """.stripMargin)
+            
 
 **résultat :**
  
