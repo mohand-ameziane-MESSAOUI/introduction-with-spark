@@ -1,9 +1,9 @@
-#Apache spark
+# Apache spark
 
-##Introduction 
+## Introduction 
 **Apache spark** est un Framework open source de traitement de données volumineuses dédié au Big Data qui permet aux développeurs d’effectuer un traitement de données complexe de manière distribuée (cluster computing) et qui propose une api dite « fonctionnelle » qui nous donne la possibilité de faire des processing de type maps et aggregations
 
-##SparkSession 
+## SparkSession 
 **SparkSession** est le point d’entrée dans L’API spark et toutes ses fonctionnalités 
 
 **Creation de la SparkSession avec scala** : 
@@ -15,6 +15,8 @@
     
 **résultat :**
 
+![Alt Text](/images/personDF.png)
+
 ! [Image de personDF] 
 (https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/tree/master/images/personDF.png)
                
@@ -22,12 +24,12 @@
 **Master** : permet de définir l’URL principale de Spark à laquelle se connecter, dans notre exemple c’est « local » pour s'exécuter localement
 **getOrCreat** : c’est pour obtenir la sparkSession si elle existe ou bien la créer si elle n’existe pas  
 
-#Spark APIs
+# Spark APIs
 
-##Rdd	
+## Rdd	
 « Resilient Distributed Dataset » c'est une structure de données résiliente et distribuée sur les différents executors d’un cluster sur lesquels on applique des transformations et des calculs en mémoire sur de grands clusters. L’élément de base d’un RDD est un record
 
-##DataFrame
+## DataFrame
 Contrairement à un RDD, les données sont organisées en colonnes nommées. On manipule des « row » donc c’est un RDD avec SCHEMA.
 
 Voici quelques exemples de transformation et de calculs :
@@ -65,7 +67,7 @@ Voici quelques exemples de transformation et de calculs :
 ! [Image de personDF] 
 (https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/personDF.png)
  
-##Dataset 
+## Dataset 
 
 Ce qui différencier du DataFrame c’est qu’avec les Dataset on manipule plutôt des objets et aussi il est optimisé par catalyst, et pour l’utiliser il faut un encoder qui à partir des classes il importe le schéma.
 
@@ -108,7 +110,7 @@ Avoir que les personnes qui habitent à Paris, pour cela on va filtrer notre Dat
 ! [Image de personDF] 
 (https://github.com/mohand-ameziane-MESSAOUI/introduction-with-spark/blob/master/personDF.png)
         
-##Spark SQL 
+## Spark SQL 
 **Spark SQL :** est un module d’Apache Spark qui permet de travailler avec des données structurées il consiste à mélanger des programmes spark avec des requêtes SQL 
 Reprennent les exemples précédents et les faire en spark SQL 
 
