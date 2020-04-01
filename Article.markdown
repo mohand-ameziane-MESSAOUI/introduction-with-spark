@@ -120,14 +120,10 @@ Reprennent les exemples précédents et les faire en spark SQL
  
 3.	Avoir le nombre de personnes qui habitent dans chaque ville : 
 
-    `` ''
+    `` 
      spark
-        .sql("""
-        |select city, count(*) as count 
-        |from person 
-        |group by city
-        |""".stripMargin)
-    `` ''    
+        .sql("""select city, count(*) as count from person group by city""".stripMargin)
+    ``    
 
 **résultat :**
  
