@@ -10,7 +10,7 @@ object ArticleApp {
       .master("local[*]")
       .getOrCreate()
 
-    val personDF = Transformation.scvToDF("C:\\Users\\ADBI_101\\Desktop\\BIGAPPS\\dev\\projet_personnel\\introduction-with-spark\\src\\main\\resources\\personne.csv")
+    val personDF = Transformation.scvToDF("pathfile.csv")
     val personPerCityWithDataFrameDF = Transformation.personPerCityWithDataFrame(personDF, "paris")
     val countPersonPerCityDF = Transformation.countPersonPerCity(personDF)
     val DatasetToDataFrameDS = Transformation.DatasetToDataFrame(personDF)
