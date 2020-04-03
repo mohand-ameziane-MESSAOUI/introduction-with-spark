@@ -51,6 +51,7 @@ Spark nous propose des différentes librairies officielles qu’on peut manipule
 1)	Télécharger spark à partir du lien : 
 
     wget http://d3kbcqa49mib13.cloudfront.net/spark-2.2.0-bin-hadoop2.7.tgz
+    
     tar xvf spark-2.2.0-bin-hadoop2.7.tgz
 
 2)	Définir les variables d’environnement :
