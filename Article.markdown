@@ -1,5 +1,7 @@
 # débuter avec Apache Spark
-Dans cet article nous verrons comment installé spark et scala sur Windows et Linux ensuite nous verrons quelques APIs de spark et quelques exemples sur ses APIs  
+
+Cet article est dédié à Apache Spark. Qu’est-ce que Spark, comment installé spark sur Windows et Linux ensuite nous verrons quelques APIs de spark et quelques exemples sur ses APIs  
+
 ## Introduction 
 **Apache spark** est un Framework open source de traitement de données volumineuses dédié au Big Data qui permet aux développeurs d’effectuer un traitement de données complexe de manière distribuée (cluster computing) et qui propose une api dite « fonctionnelle » qui nous donne la possibilité de faire des processing de type maps et aggregations
 
