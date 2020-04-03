@@ -1,11 +1,11 @@
-# Débuté avec spark 
+# débuter avec Apache Spark
 Dans cet article nous verrons comment installé spark et scala sur Windows et Linux ensuite nous verrons quelques APIs de spark et quelques exemples sur ses APIs  
 ## Introduction 
 **Apache spark** est un Framework open source de traitement de données volumineuses dédié au Big Data qui permet aux développeurs d’effectuer un traitement de données complexe de manière distribuée (cluster computing) et qui propose une api dite « fonctionnelle » qui nous donne la possibilité de faire des processing de type maps et aggregations
 
-##Installation de scala et spark sur Windows 
+## Installation de scala et spark sur Windows 
 
-###Installation de scala : 
+### Installation de scala : 
 1)	Télécharger scala à partir du lien https://www.scala-lang.org/download/
 2)	Définir les variables d’environnement : 
 
@@ -17,7 +17,7 @@ Dans cet article nous verrons comment installé spark et scala sur Windows et Li
     $ scala
 
 
-###Installation de spark :
+### Installation de spark :
 1)	Télécharger spark à partir du lien : https://spark.apache.org/downloads.html
 2)	Télécharger Windows Utilities à partir du lien : https://github.com/steveloughran/winutils/tree/master/hadoop-2.7.1
 3)	Définir les variables d’environnement : 
@@ -28,13 +28,13 @@ Dans cet article nous verrons comment installé spark et scala sur Windows et Li
 
 4)	Vérifié si spark s’est bien installée avec la commande : spark-shell
 
-##Installation de scala et spark sur linux 
-###Installation de scala : 
+## Installation de scala et spark sur linux 
+### Installation de scala : 
 	sudo apt-get update 
 	sudo apt install scala
 
 
-###Installation de spark :
+### Installation de spark :
 1)	Télécharger spark à partir du lien : 
 
     wget http://d3kbcqa49mib13.cloudfront.net/spark-2.2.0-bin-hadoop2.7.tgz
