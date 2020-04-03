@@ -20,7 +20,7 @@ Spark nous propose des différentes librairies officielles qu’on peut manipule
 ## Installation de scala et spark sur Windows 
 
 ### Installation de scala : 
-1)	Télécharger scala à partir du lien https://www.scala-lang.org/download/
+1)	Télécharger scala à partir du lien : https://www.scala-lang.org/download/
 2)	Définir les variables d’environnement : 
 
   a. SCALA_HOME => C: \ Program Files (x86) \ scala
@@ -71,7 +71,9 @@ Spark nous propose des différentes librairies officielles qu’on peut manipule
     
 
 **Builder** : qui est un constructeur pour la création de la **SparkSession** 
+
 **Master** : permet de définir l’URL principale de Spark à laquelle se connecter, dans notre exemple c’est « local » pour s'exécuter localement
+
 **getOrCreat** : c’est pour obtenir la sparkSession si elle existe ou bien la créer si elle n’existe pas  
 
 # Spark APIs
