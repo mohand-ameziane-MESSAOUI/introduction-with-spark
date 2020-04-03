@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99094811-9d6a-4942-9d7b-9206f255f085" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/test/spark/wiki/extracts/ArticleApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/test/spark/wiki/extracts/ArticleApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Article.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/Article.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

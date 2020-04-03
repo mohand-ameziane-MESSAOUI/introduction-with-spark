@@ -1,7 +1,50 @@
-# Apache spark
-
+# Débuté avec spark 
+Dans cet article nous verrons comment installé spark et scala sur Windows et Linux ensuite nous verrons quelques APIs de spark et quelques exemples sur ses APIs  
 ## Introduction 
 **Apache spark** est un Framework open source de traitement de données volumineuses dédié au Big Data qui permet aux développeurs d’effectuer un traitement de données complexe de manière distribuée (cluster computing) et qui propose une api dite « fonctionnelle » qui nous donne la possibilité de faire des processing de type maps et aggregations
+
+##Installation de scala et spark sur Windows 
+
+###Installation de scala : 
+1)	Télécharger scala à partir du lien https://www.scala-lang.org/download/
+2)	Définir les variables d’environnement : 
+
+  a.SCALA_HOME => C: \ Program Files (x86) \ scala
+  b.PATH => C: \ Program Files (x86) \ scala \ bin
+  
+3)	Vérifié si scala s’est bien installée avec la commande: 
+    
+    $ scala
+
+
+###Installation de spark :
+1)	Télécharger spark à partir du lien : https://spark.apache.org/downloads.html
+2)	Télécharger Windows Utilities à partir du lien : https://github.com/steveloughran/winutils/tree/master/hadoop-2.7.1
+3)	Définir les variables d’environnement : 
+
+   a. HADOOP_HOME => D:\spark-2.0.1-bin-hadoop2.7
+   b. SPARK_HOME => D:\spark-2.0.1-bin-hadoop2.7\bin
+   c. PATH => D:\spark\spark-2.0.1-bin-hadoop2.7\bin
+
+4)	Vérifié si spark s’est bien installée avec la commande : spark-shell
+
+##Installation de scala et spark sur linux 
+###Installation de scala : 
+	sudo apt-get update 
+	sudo apt install scala
+
+
+###Installation de spark :
+1)	Télécharger spark à partir du lien : 
+
+    wget http://d3kbcqa49mib13.cloudfront.net/spark-2.2.0-bin-hadoop2.7.tgz
+
+    tar xvf spark-2.2.0-bin-hadoop2.7.tgz
+
+2)	Définir les variables d’environnement :
+
+     export PATH=$PATH:/usr/local/spark/bin
+
 
 ## SparkSession 
 **SparkSession** est le point d’entrée dans L’API spark et toutes ses fonctionnalités 
