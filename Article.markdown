@@ -48,7 +48,7 @@ Spark nous propose des différentes librairies officielles qu’on peut manipule
 
 
 ### Installation de spark :
-1)	Télécharger spark à partir du lien : 
+1)	Télécharger spark avec les lignes de commandes suivantes : 
 
     wget http://d3kbcqa49mib13.cloudfront.net/spark-2.2.0-bin-hadoop2.7.tgz
     
