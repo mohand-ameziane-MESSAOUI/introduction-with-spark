@@ -6,13 +6,13 @@ Dans cet article nous verrons comment installé spark et scala sur Windows et Li
 ## Librairies de Spark : 
 Spark nous propose des différentes librairies officielles qu’on peut manipuler :
 	
-**Spark SQL** : permet de requêter les RDDs en SQL
+  1) **Spark SQL** : permet de requêter les RDDs en SQL
 
-**Spark Streaming** : permet d’écrire des applications streaming
+  2) **Spark Streaming** : permet d’écrire des applications streaming
 
-**MLlib** : reprennent des algorithmes très performent du machine learning 
+  3) **MLlib** : reprennent des algorithmes très performent du machine learning 
 
-**GraphX** : permet de faire des opérations sur les RDDs à la manière d’un graph
+  4) **GraphX** : permet de faire des opérations sur les RDDs à la manière d’un graph
 
 
 ## Installation de scala et spark sur Windows 
