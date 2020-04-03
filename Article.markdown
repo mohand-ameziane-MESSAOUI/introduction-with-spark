@@ -23,12 +23,10 @@ Spark nous propose des différentes librairies officielles qu’on peut manipule
 1)	Télécharger scala à partir du lien https://www.scala-lang.org/download/
 2)	Définir les variables d’environnement : 
 
-  a.SCALA_HOME => C: \ Program Files (x86) \ scala
-  b.PATH => C: \ Program Files (x86) \ scala \ bin
+  a. SCALA_HOME => C: \ Program Files (x86) \ scala
   
-3)	Vérifié si scala s’est bien installée avec la commande: 
-    
-    $ scala
+  b. PATH => C: \ Program Files (x86) \ scala \ bin
+  
 
 
 ### Installation de spark :
@@ -37,10 +35,11 @@ Spark nous propose des différentes librairies officielles qu’on peut manipule
 3)	Définir les variables d’environnement : 
 
    a. HADOOP_HOME => D:\spark-2.0.1-bin-hadoop2.7
+   
    b. SPARK_HOME => D:\spark-2.0.1-bin-hadoop2.7\bin
+   
    c. PATH => D:\spark\spark-2.0.1-bin-hadoop2.7\bin
 
-4)	Vérifié si spark s’est bien installée avec la commande : spark-shell
 
 ## Installation de scala et spark sur linux 
 ### Installation de scala : 
@@ -52,7 +51,6 @@ Spark nous propose des différentes librairies officielles qu’on peut manipule
 1)	Télécharger spark à partir du lien : 
 
     wget http://d3kbcqa49mib13.cloudfront.net/spark-2.2.0-bin-hadoop2.7.tgz
-
     tar xvf spark-2.2.0-bin-hadoop2.7.tgz
 
 2)	Définir les variables d’environnement :
