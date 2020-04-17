@@ -1,0 +1,4 @@
+entities\Product.class
+ProductAppProducer.class
+services\KafkaService.class
+configurations\KafkaConfig.class

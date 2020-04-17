@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="KafkaConsumer" />
         <module name="introduction-with-spark1" />
-        <module name="spark-wiki-extracts" />
+        <module name="kafkaProducer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafkaConsumer" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
