@@ -1,78 +1,68 @@
 package com.test
 
-import java.util.{Collections, _}
-
-import com.fasterxml.jackson.databind.ObjectMapper
 import com.test.configurations.KafkaConfigs
-import org.apache.kafka.clients.consumer.KafkaConsumer
+import com.test.domain.Domains.Product
+import com.test.services.KafkaConsumerService
 import org.apache.spark.SparkConf
-import org.apache.spark.sql.SparkSession
-import org.apache.spark.streaming.{Milliseconds, StreamingContext}
-
-import scala.collection.JavaConverters._
+import org.apache.spark.sql.{Encoders, SparkSession}
+import org.apache.spark.streaming.{Milliseconds, State, StateSpec, StreamingContext, dstream}
 
 object ProductAppConsumer {
 
-  val objectMapper = new ObjectMapper()
-  //objectMapper.registerModule(DefaultScalaModule)
-
-  def parse(json:String): Product= {
-    objectMapper.readValue(json, classOf[Product])
-  }
-
   def main(args: Array[String]): Unit = {
+
+    implicit val encd = Encoders.product[Product]
+
     println("******************* PROGRAM BEGIN **********************")
 
-//     val sparkConf = new SparkConf()
-//    .setAppName("Introduction to Spark Streaming with Kafka")
-//    sparkConf.setIfMissing("spark.master", "local[*]")
-//    sparkConf.set("spark.streaming.backpressure.enabled", "true")
-
     val sparkConf = new SparkConf()
-
-    sparkConf
-        .setAppName("Histogram")
-        .setMaster("local[*]")
+      .setAppName("Kafka_Streaming_Application")
+      .setIfMissing("spark.master", "local[*]")
+      .set("spark.streaming.backpressure.enabled", "true")
+      .set("spark.cassandra.connection.host", KafkaConfigs.CASSANDRA_SERVERS)
 
     val spark = SparkSession.builder()
-      .master("local[*]")
       .config(sparkConf)
       .getOrCreate()
 
     val sc = spark.sparkContext
-    val ssc = new StreamingContext(sc, Milliseconds(500))
+    val ssc = new StreamingContext(sc, Milliseconds(5000))
     ssc.checkpoint("./chekpoint")
 
+    val stream = KafkaConsumerService.getSetConsumerProperties(KafkaConfigs.BOOTSTRAP_SERVERS, KafkaConfigs.TOPIC_PRODUCT, ssc)
+    val keyspaceCassandra = "kafkaspark"
 
+    /**************************************************** stateless ***********************************************************/
+    val productDSm = KafkaConsumerService.inputDsmToProductDsm(stream)
 
+    val tableProduct = "productless"
+    val queryProductless = "CREATE TABLE IF NOT EXISTS productless (aid int  PRIMARY KEY, " + "aname text, " + "aprice double, " + "aquantity double );"
 
-    println(s"Starting....Listen to ${KafkaConfigs.BOOTSTRAP_SERVERS}")
+    KafkaConsumerService.createTable(keyspaceCassandra,queryProductless)
+    KafkaConsumerService.insertToCassandra(productDSm, keyspaceCassandra, tableProduct)
 
-    val  props = new Properties()
-    props.put("bootstrap.servers", KafkaConfigs.BOOTSTRAP_SERVERS)
+    productDSm.print()
 
-    props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
-    props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
-    props.put("group.id", "something")
+    /*************************************************** statelfull *************************************************************/
+    val producAndKeytDSm = KafkaConsumerService.inputDsmToProductAndKeyDsm(stream)
 
-    val consumer = new KafkaConsumer[String, String](props)
+    val tableProductFull = "productfull"
+    val queryProductfull = "CREATE TABLE IF NOT EXISTS productfull (aid int , " + "aname text PRIMARY KEY, " + "aprice double, " + "aquantity double );"
 
-    consumer.subscribe(Collections.singletonList(KafkaConfigs.TOPIC_PRODUCT))
+    val updateState = KafkaConsumerService.updateState()
+    val spec = StateSpec.function(updateState)
+    val mappedStatefulStream = producAndKeytDSm.mapWithState(spec)
 
-    while(true){
-      val records=consumer.poll(100)
-      for (record<-records.asScala){
-        println(record)
-      }
-    }
+    KafkaConsumerService.createTable(keyspaceCassandra,queryProductfull)
 
+    val prod = mappedStatefulStream.stateSnapshots().map(x => x._2)
+    KafkaConsumerService.insertToCassandra(prod, keyspaceCassandra, tableProductFull)
 
+    mappedStatefulStream.print()
 
-
-    //stream.foreachRDD(elm => println(parse(elm.toString())))
-
-    println("******************* PROGRAM END ************************")
-
+    ssc.start() // start the streaming context
+    ssc.awaitTermination() // block while the context is running (until it's stopped by the timer)
+    ssc.stop() // this additional stop seems to be required
 
   }
 }

@@ -4,23 +4,23 @@ import javax.swing.*;
 
 public class Product {
 
-    private String id;
+    private int id;
     private String name;
-    private String price;
+    private double price;
     private double quantity;
 
-    public Product(String id, String name, String price, double quantity) {
+    public Product(int id, String name, double price, double quantity) {
         this.id = id;
         this.name = name;
         this.price = price;
         this.quantity = quantity;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -32,11 +32,11 @@ public class Product {
         this.name = name;
     }
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
@@ -50,10 +50,10 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Produit{" +
-                "id='" + id + '\'' +
+        return "Product{" +
+                "id=" + id +
                 ", name='" + name + '\'' +
-                ", price='" + price + '\'' +
+                ", price=" + price +
                 ", quantity=" + quantity +
                 '}';
     }

@@ -2,31 +2,329 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99094811-9d6a-4942-9d7b-9206f255f085" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kafkaConsumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaConsumer/scriptFile.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaConsumer/src/main/scala/com/test/ProductAppConsumer.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaConsumer/src/main/scala/com/test/configurations/KafkaConfigs.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaConsumer/src/main/scala/com/test/domain/Domains.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaConsumer/src/main/scala/com/test/services/KafkaConsumerService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaProducer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaProducer/src/main/java/ProductAppProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaProducer/src/main/java/configurations/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaProducer/src/main/java/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafkaProducer/src/main/java/services/KafkaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/.checkpoint-1587729515000.bk.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/.checkpoint-1587729515000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/.checkpoint-1587729520000.bk.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/.checkpoint-1587729520000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/.checkpoint-1587729525000.bk.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/.checkpoint-1587729525000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/.checkpoint-1587729530000.bk.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/.checkpoint-1587729530000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/.checkpoint-1587729535000.bk.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/.checkpoint-1587729535000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0069d387-78a7-4897-9e67-75fdffefeb35/rdd-82/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0889f5d7-6c46-42b1-be70-84ea55d13ba9/rdd-54/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-156/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/0bebbff3-a868-4dfa-8cee-3aad0cfb8932/rdd-207/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/1b81aab9-7360-4ccd-81c6-e00ee32c658a/rdd-54/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/3e3e993a-795d-4ba0-a6a7-42401961c0ad/rdd-54/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-105/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/42627875-8da0-4821-ac82-64a7f8c78a09/rdd-156/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-105/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/46457256-7c50-4673-b9cc-6e873c525e37/rdd-54/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/4a77a4d5-02af-444b-b245-0e6c9be73c59/rdd-104/..part-00000-attempt-0.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/4a77a4d5-02af-444b-b245-0e6c9be73c59/rdd-104/.part-00000-attempt-0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/4a77a4d5-02af-444b-b245-0e6c9be73c59/rdd-54/..part-00000-attempt-0.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/4a77a4d5-02af-444b-b245-0e6c9be73c59/rdd-54/.part-00000-attempt-0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-258/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/7febf999-1962-4a58-a22c-d1f1ee08dbfe/rdd-309/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/9a34e967-9721-4e19-8eba-dad35c97651b/rdd-82/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/ad62e708-0b60-4887-aede-29efcc20303c/rdd-54/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/._partitioner.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/.part-00001.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/.part-00002.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/.part-00003.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/.part-00004.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/.part-00005.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/.part-00006.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/.part-00007.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/_partitioner" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/part-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/part-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/part-00003" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/part-00004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/part-00005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/part-00006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/b60a983f-4b13-4679-85cf-87cb96a215b6/rdd-54/part-00007" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/checkpoint-1587729515000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/checkpoint-1587729515000.bk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/checkpoint-1587729520000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/checkpoint-1587729520000.bk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/checkpoint-1587729525000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/checkpoint-1587729525000.bk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/checkpoint-1587729530000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/checkpoint-1587729530000.bk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/checkpoint-1587729535000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/checkpoint-1587729535000.bk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/receivedBlockMetadata/log-1587729392062-1587729452062" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chekpoint/receivedBlockMetadata/log-1587729520382-1587729580382" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/src/main/scala/com/test/ProductAppConsumer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/src/main/scala/com/test/ProductAppConsumer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/src/main/scala/com/test/configurations/KafkaConfigs.scala" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/src/main/scala/com/test/configurations/KafkaConfigs.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/src/main/scala/com/test/domain/Domains.scala" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/src/main/scala/com/test/domain/Domains.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/src/main/scala/com/test/services/KafkaConsumerService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/src/main/scala/com/test/services/KafkaConsumerService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/ProductAppConsumer$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/ProductAppConsumer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/ProductAppConsumer$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/ProductAppConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/ProductAppConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/configurations/KafkaConfigs$.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/configurations/KafkaConfigs$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/configurations/KafkaConfigs.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/configurations/KafkaConfigs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/domain/Domains$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/domain/Domains$.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/domain/Domains$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/domain/Domains$Product$.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/domain/Domains$Product$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/domain/Domains$Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/domain/Domains$Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/domain/Domains.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/domain/Domains.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/services/KafkaConsumerService$.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/services/KafkaConsumerService$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/services/KafkaConsumerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaConsumer/target/classes/com/test/services/KafkaConsumerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaConsumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaProducer/src/main/java/ProductAppProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaProducer/src/main/java/ProductAppProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaProducer/src/main/java/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaProducer/src/main/java/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaProducer/src/main/java/services/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaProducer/src/main/java/services/KafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaProducer/target/classes/ProductAppProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaProducer/target/classes/ProductAppProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaProducer/target/classes/entities/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaProducer/target/classes/entities/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkaProducer/target/classes/services/KafkaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/kafkaProducer/target/classes/services/KafkaService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spark/wiki/extracts/ArticleApp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spark/wiki/extracts/ArticleApp$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spark/wiki/extracts/domain/DomainArticle$$typecreator1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spark/wiki/extracts/domain/DomainArticle$$typecreator1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spark/wiki/extracts/domain/DomainArticle$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spark/wiki/extracts/domain/DomainArticle$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spark/wiki/extracts/domain/DomainArticle$Person$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spark/wiki/extracts/domain/DomainArticle$Person$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spark/wiki/extracts/domain/DomainArticle$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spark/wiki/extracts/domain/DomainArticle$Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/spark/wiki/extracts/domain/DomainArticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/spark/wiki/extracts/domain/DomainArticle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/personne.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/introduction-with-spark1.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,8 +454,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductAppConsumer" />
         <item itemvalue="Application.ProductAppProducer" />
+        <item itemvalue="Application.ProductAppConsumer" />
         <item itemvalue="Application.ArticleApp" />
       </list>
     </recent_temporary>

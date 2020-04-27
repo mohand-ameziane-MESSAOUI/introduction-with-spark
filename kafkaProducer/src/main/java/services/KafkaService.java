@@ -31,15 +31,14 @@ public class KafkaService {
 
     protected static ObjectMapper objectMapper = new ObjectMapper();
 
-    public void send(Product p) throws IOException {
+    public void sending(Product p) throws IOException {
         ProducerRecord<Long, String> record = new ProducerRecord<>(KafkaConfig.TOPIC_PRODUCT,objectMapper.writeValueAsString(p));
 
         //producer.send(record);
         //System.out.println("send product ==> " + producer.send(record).get());
         try {
             RecordMetadata metadata = producer.send(record).get();
-            System.out.println("partition ======> " + metadata.toString()
-                    + " with offset " + metadata.offset());
+            System.out.println("partition ======> " + metadata.toString());
         }
         catch (ExecutionException | InterruptedException e) {
             System.out.println("Error in sending record");
