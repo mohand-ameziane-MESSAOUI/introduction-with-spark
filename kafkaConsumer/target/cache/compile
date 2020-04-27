@@ -1,0 +1,632 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes
+compile options:
+4 items
+0 -> -deprecation
+1 -> -unchecked
+2 -> -encoding
+3 -> UTF-8
+javac options:
+3 items
+0 -> -g
+1 -> -encoding
+2 -> UTF-8
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+19 items
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\configurations\KafkaConfigs$.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\configurations\KafkaConfigs.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\domain\Domains$.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\domain\Domains$Product$.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\domain\Domains$Product.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\domain\Domains.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\ProductAppConsumer$$anonfun$1.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\ProductAppConsumer$$typecreator1$1.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\ProductAppConsumer$.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\ProductAppConsumer.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$1$$anonfun$2.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$1.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$inputDsmToProductAndKeyDsm$1.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$inputDsmToProductDsm$1.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$insertToCassandra$1$$typecreator1$1.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$insertToCassandra$1$$typecreator2$1.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$insertToCassandra$1.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$.class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService.class
+binary dependencies:
+23 items
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> C:\Users\ADBI_101\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> C:\Users\ADBI_101\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.4.4\spark-catalyst_2.11-2.4.4.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> C:\Users\ADBI_101\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\.m2\repository\org\apache\kafka\kafka-clients\2.5.0\kafka-clients-2.5.0.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.4.4\spark-catalyst_2.11-2.4.4.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-core_2.11\2.4.4\spark-core_2.11-2.4.4.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-sql_2.11\2.4.4\spark-sql_2.11-2.4.4.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-streaming_2.11\2.4.4\spark-streaming_2.11-2.4.4.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\.m2\repository\org\scala-lang\scala-reflect\2.11.7\scala-reflect-2.11.7.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\.m2\repository\com\datastax\spark\spark-cassandra-connector_2.11\2.4.2\spark-cassandra-connector_2.11-2.4.2.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\.m2\repository\org\apache\kafka\kafka-clients\2.5.0\kafka-clients-2.5.0.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-core_2.11\2.4.4\spark-core_2.11-2.4.4.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-streaming-kafka-0-10_2.11\2.4.4\spark-streaming-kafka-0-10_2.11-2.4.4.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-streaming_2.11\2.4.4\spark-streaming_2.11-2.4.4.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\.m2\repository\org\scala-lang\scala-reflect\2.11.7\scala-reflect-2.11.7.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+5 items
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+19 items
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> com.test.configurations.KafkaConfigs
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> com.test.configurations.KafkaConfigs$
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> com.test.domain.Domains
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> com.test.domain.Domains$
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> com.test.domain.Domains$Product
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> com.test.domain.Domains$Product$
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> com.test.ProductAppConsumer
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> com.test.ProductAppConsumer$
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> com.test.ProductAppConsumer$$anonfun$1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> com.test.ProductAppConsumer$$typecreator1$1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> com.test.services.KafkaConsumerService
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> com.test.services.KafkaConsumerService$
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> com.test.services.KafkaConsumerService$$anonfun$1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> com.test.services.KafkaConsumerService$$anonfun$1$$anonfun$2
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> com.test.services.KafkaConsumerService$$anonfun$inputDsmToProductAndKeyDsm$1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> com.test.services.KafkaConsumerService$$anonfun$inputDsmToProductDsm$1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> com.test.services.KafkaConsumerService$$anonfun$insertToCassandra$1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> com.test.services.KafkaConsumerService$$anonfun$insertToCassandra$1$$typecreator1$1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> com.test.services.KafkaConsumerService$$anonfun$insertToCassandra$1$$typecreator2$1
+used names:
+435 items
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> <init>
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> AnyRef
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> BOOTSTRAP_SERVERS
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> CASSANDRA_SERVERS
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> KafkaConfigs
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> Object
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> Predef
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> String
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> TOPIC_PRODUCT
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> com
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> configurations
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> scala
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> test
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> &&
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> <init>
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> ==
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> A
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> AbstractFunction4
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Any
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> AnyRef
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Boolean
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Domains
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Double
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Encoders
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> IndexOutOfBoundsException
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Int
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Iterator
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> JsonProperty
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> None
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Nothing
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Object
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Predef
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Product
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> ScalaRunTime
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Serializable
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Some
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Statics
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> String
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> T
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> T0
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> T1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> T2
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> T3
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> T4
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> Tuple4
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> _toString
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> aid
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> aname
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> annotation
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> anyHash
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> apache
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> aprice
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> aquantity
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> asInstanceOf
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> com
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> domain
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> doubleHash
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> eq
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> fasterxml
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> finalizeHash
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> isInstanceOf
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> jackson
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> mix
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> org
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> package
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> runtime
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> scala
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> spark
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> sql
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> test
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> toString
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> typedProductIterator
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> ||
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> $m
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> $m$untyped
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> $typecreator1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> $u
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> <init>
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> ?0
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Any
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> AnyRef
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Array
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> BOOTSTRAP_SERVERS
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Boolean
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Builder
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> CASSANDRA_SERVERS
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> ClassLoader
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> ClassSymbol
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> ClassTag
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> ConsumerRecord
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> DStream
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Domains
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Duration
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Encoder
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Encoders
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Function1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Function3
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> InputDStream
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Internal
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> JavaUniverse
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> K
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> KafkaConfigs
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> KafkaConsumerService
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> KeyType
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> List
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Long
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> MapWithStateDStream
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> MappedType
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Milliseconds
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Mirror
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> ModuleSymbol
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Nil
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Nothing
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Object
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Option
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Ordering
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> PairDStreamFunctions
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Predef
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Product
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> ProductAppConsumer
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> ReificationSupportApi
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> RootClass
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> SingleType
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Singleton
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> SparkConf
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> SparkContext
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> SparkSession
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> State
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> StateSpec
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> StateType
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> StreamingContext
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> String
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Symbol
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> T
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> T0
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> TOPIC_PRODUCT
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Tuple2
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Type
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> TypeCreator
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> TypeRef
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> TypeTag
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> U
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Unit
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> Universe
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> V
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> ValueType
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> _$7
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> _2
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> apache
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> apply
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> asInstanceOf
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> awaitTermination
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> builder
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> com
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> config
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> configurations
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> createTable
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> domain
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> dstream
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> function
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> getClass
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> getClassLoader
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> getOrCreate
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> getSetConsumerProperties
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> immutable
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> inputDsmToProductAndKeyDsm
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> inputDsmToProductDsm
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> insertToCassandra
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> internal
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> keyspaceCassandra
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> map
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> mapWithState
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> mappedStatefulStream
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> materializeClassTag
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> materializeTypeTag
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> math
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> org
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> package
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> print
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> println
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> prod
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> producAndKeytDSm
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> product
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> productDSm
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> queryProductfull
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> queryProductless
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> reflect
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> reificationSupport
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> runtime
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> runtimeMirror
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> sc
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> scala
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> services
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> set
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> setAppName
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> setIfMissing
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> spark
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> sparkConf
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> sparkContext
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> spec
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> sql
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> ssc
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> start
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> stateSnapshots
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> staticClass
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> staticModule
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> staticPackage
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> stop
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> stream
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> streaming
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> tableProduct
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> tableProductFull
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> test
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> thisPrefix
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> toPairDStreamFunctions
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> universe
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> updateState
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> x
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> $m
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> $m$untyped
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> $typecreator1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> $typecreator2
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> $u
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ->
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> <byname>
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> <init>
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> <repeated>
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ==
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> >
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ?0
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> A
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Any
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> AnyRef
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Array
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ArrowAssoc
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> B
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Boolean
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Builder
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> CASSANDRA_SERVERS
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> CassandraConnector
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Class
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ClassLoader
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ClassSymbol
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ClassTag
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Cluster
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ColumnMapper
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ColumnSelector
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ConsumerRecord
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ConsumerStrategies
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ConsumerStrategy
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> DStream
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Domains
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Double
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Function1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Function3
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> InputDStream
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Int
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Internal
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> JavaUniverse
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> K
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> KafkaConfigs
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> KafkaConsumerService
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> KafkaUtils
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> List
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> LocationStrategies
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> LocationStrategy
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Long
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> LongDeserializer
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Map
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> MatchError
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Mirror
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ModuleSymbol
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Nil
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> None
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Nothing
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Object
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ObjectMapper
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Option
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Predef
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> PreferConsistent
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> PrintStream
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Product
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> RDD
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> RDDFunctions
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ReificationSupportApi
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ResultSet
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> RootClass
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> RowWriterFactory
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Session
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> SingleType
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Singleton
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Some
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> State
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> StreamingContext
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> String
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> StringContext
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> StringDeserializer
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Subscribe
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Symbol
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> System
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> T
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> T0
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> T1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> T2
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> T3
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Tuple2
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Tuple3
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Type
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> TypeCreator
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> TypeRef
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> TypeTag
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> U
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Unit
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> Universe
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> V
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> WrappedArray
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> WriteConf
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> _$7
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> _1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> _2
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> _root_
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> addContactPoint
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> aname
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> apache
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> apply
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> aprice
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> asInstanceOf
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> boolean2Boolean
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> bootstrapServer
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> build
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> builder
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> clients
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> cluster
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> com
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> common
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> configurations
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> connect
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> connector
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> consumer
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> core
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> createDirectStream
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> currentProd
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> databind
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> datastax
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> defaultColumnMapper
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> defaultProduct
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> defaultRowWriterFactory
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> domain
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> driver
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> dstream
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> execute
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> fasterxml
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> foreachRDD
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> getClass
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> getClassLoader
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> getOption
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> getOrElse
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> immutable
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> internal
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> isEmpty
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> isInstanceOf
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> jackson
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> java
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> json
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> kafka
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> kafka010
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> kafkaParams
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> kesSpace
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> keyspace
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> lang
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> map
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> mapper
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> materializeClassTag
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> materializeTypeTag
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> minPrice
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ne
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> objectMapper
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> org
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> out
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> package
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> parse
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> prevMinPrice
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> println
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> product
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> productDSm
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> productMin
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> productName
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> qual$1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> queryCreateTable
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> rdd
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> readValue
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> record
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> reflect
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> reificationSupport
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> runtime
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> runtimeMirror
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> s
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> saveToCassandra
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> scala
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> serialization
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> services
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> session
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> spark
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> ssc
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> stateProduct
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> staticClass
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> staticModule
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> staticPackage
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> stream
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> streaming
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> table
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> test
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> thisPrefix
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> toRDDFunctions
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> topic
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> topicsSet
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> unary_!
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> universe
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> update
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> updateState
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> value
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> wrapRefArray
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> writer
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> x
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> x$1
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> x$10
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> x$2
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> x$3
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> x$4
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> x$5
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> x$6
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> x$7
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> x$8
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> x$9
+product stamps:
+19 items
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\configurations\KafkaConfigs$.class -> lastModified(1587994633155)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\configurations\KafkaConfigs.class -> lastModified(1587994633128)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\domain\Domains$.class -> lastModified(1587994633185)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\domain\Domains$Product$.class -> lastModified(1587994633250)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\domain\Domains$Product.class -> lastModified(1587994633236)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\domain\Domains.class -> lastModified(1587994633175)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\ProductAppConsumer$$anonfun$1.class -> lastModified(1587994633082)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\ProductAppConsumer$$typecreator1$1.class -> lastModified(1587994633104)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\ProductAppConsumer$.class -> lastModified(1587994633044)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\ProductAppConsumer.class -> lastModified(1587994632820)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$1$$anonfun$2.class -> lastModified(1587994633338)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$1.class -> lastModified(1587994633325)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$inputDsmToProductAndKeyDsm$1.class -> lastModified(1587994633395)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$inputDsmToProductDsm$1.class -> lastModified(1587994633430)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$insertToCassandra$1$$typecreator1$1.class -> lastModified(1587994633470)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$insertToCassandra$1$$typecreator2$1.class -> lastModified(1587994633496)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$$anonfun$insertToCassandra$1.class -> lastModified(1587994633446)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService$.class -> lastModified(1587994633297)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\target\classes\com\test\services\KafkaConsumerService.class -> lastModified(1587994633264)
+source stamps:
+4 items
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> hash(38ec79ce516376bb706b79b39290094d5b0c5ba5)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> hash(77c73cee8617d3da452950a82be963a78f819dd5)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> hash(bc6eac111dcb61d2efaf6a5f688bce18e8c4a11a)
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> hash(fa093e57b7e0c629bd1df42c6af3075827140924)
+binary stamps:
+12 items
+C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar -> lastModified(1570449940602)
+C:\Users\ADBI_101\.m2\repository\com\datastax\spark\spark-cassandra-connector_2.11\2.4.2\spark-cassandra-connector_2.11-2.4.2.jar -> lastModified(1587563875004)
+C:\Users\ADBI_101\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar -> lastModified(1587049753420)
+C:\Users\ADBI_101\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar -> lastModified(1587049757461)
+C:\Users\ADBI_101\.m2\repository\org\apache\kafka\kafka-clients\2.5.0\kafka-clients-2.5.0.jar -> lastModified(1587030063197)
+C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.4.4\spark-catalyst_2.11-2.4.4.jar -> lastModified(1573635492465)
+C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-core_2.11\2.4.4\spark-core_2.11-2.4.4.jar -> lastModified(1573635497176)
+C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-sql_2.11\2.4.4\spark-sql_2.11-2.4.4.jar -> lastModified(1573635502791)
+C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-streaming-kafka-0-10_2.11\2.4.4\spark-streaming-kafka-0-10_2.11-2.4.4.jar -> lastModified(1573635511667)
+C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-streaming_2.11\2.4.4\spark-streaming_2.11-2.4.4.jar -> lastModified(1573635514335)
+C:\Users\ADBI_101\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar -> lastModified(1571649640688)
+C:\Users\ADBI_101\.m2\repository\org\scala-lang\scala-reflect\2.11.7\scala-reflect-2.11.7.jar -> lastModified(1575993163207)
+class names:
+12 items
+C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar -> java.lang.Object
+C:\Users\ADBI_101\.m2\repository\com\datastax\spark\spark-cassandra-connector_2.11\2.4.2\spark-cassandra-connector_2.11-2.4.2.jar -> com.datastax.driver.core.ResultSet
+C:\Users\ADBI_101\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar -> com.fasterxml.jackson.annotation.JsonProperty
+C:\Users\ADBI_101\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar -> com.fasterxml.jackson.databind.ObjectMapper
+C:\Users\ADBI_101\.m2\repository\org\apache\kafka\kafka-clients\2.5.0\kafka-clients-2.5.0.jar -> org.apache.kafka.common.serialization.LongDeserializer
+C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-catalyst_2.11\2.4.4\spark-catalyst_2.11-2.4.4.jar -> org.apache.spark.sql.Encoders
+C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-core_2.11\2.4.4\spark-core_2.11-2.4.4.jar -> org.apache.spark.rdd.RDD
+C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-sql_2.11\2.4.4\spark-sql_2.11-2.4.4.jar -> org.apache.spark.sql.SparkSession
+C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-streaming-kafka-0-10_2.11\2.4.4\spark-streaming-kafka-0-10_2.11-2.4.4.jar -> org.apache.spark.streaming.kafka010.LocationStrategy
+C:\Users\ADBI_101\.m2\repository\org\apache\spark\spark-streaming_2.11\2.4.4\spark-streaming_2.11-2.4.4.jar -> org.apache.spark.streaming.dstream.InputDStream
+C:\Users\ADBI_101\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar -> scala.package$
+C:\Users\ADBI_101\.m2\repository\org\scala-lang\scala-reflect\2.11.7\scala-reflect-2.11.7.jar -> scala.reflect.api.TypeCreator
+internal apis:
+4 items
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwvq3GfwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAXc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwye/2InQABm5vdGlmeXNxAH4ADIOQ7ox0AAR3YWl0c3EAfgAM/7HOM3QADSRhc0luc3RhbmNlT2ZzcQB+AAzsR3UWdAAGZXF1YWxzc3EAfgAMSB4m8XQAEUJPT1RTVFJBUF9TRVJWRVJTc3EAfgAMGGKSLHQADGFzSW5zdGFuY2VPZnNxAH4ADHzdoJ90AAxzeW5jaHJvbml6ZWRzcQB+AAxBVjTddAANJGlzSW5zdGFuY2VPZnNxAH4ADGiA3qN0AA1UT1BJQ19QUk9EVUNUc3EAfgAMVIBgbHQACW5vdGlmeUFsbHNxAH4ADMTB8dp0AAxpc0luc3RhbmNlT2ZzcQB+AAzXDHEjdAACPT1zcQB+AAww/QULdAAFY2xvbmVzcQB+AAxaMhqXdAAMS2Fma2FDb25maWdzc3EAfgAMZix1BHQACHRvU3RyaW5nc3EAfgAMwwDkHnQAAiE9c3EAfgAMn7Kq+XQACGdldENsYXNzc3EAfgAMH1RonHQAAm5lc3EAfgAMuQoQuHQAAmVxc3EAfgAMVSV4oHQAEUNBU1NBTkRSQV9TRVJWRVJTc3EAfgAMkKJt+nQAAiMjc3EAfgAMy7ROUXQACGZpbmFsaXplc3EAfgAM2wzm1XQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ARXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAJGNvbS50ZXN0LmNvbmZpZ3VyYXRpb25zLkthZmthQ29uZmlnc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AXXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBFTAAJaW5oZXJpdGVkcQB+AEVMAAdwYXJlbnRzcQB+AEV4cQB+AGJzcQB+AF11cQB+AEAAAAAAc3EAfgBddXEAfgBAAAAAAHNxAH4AXXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AenQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ae3NxAH4AbnQAA0FueXNxAH4AcnNxAH4AdXVxAH4AeAAAAAJzcQB+AHp0AAVzY2FsYXEAfgCBdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAIY29tLnRlc3RzcQB+AIt0ABdjb20udGVzdC5jb25maWd1cmF0aW9uc3NxAH4Ai3QAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcbva6o91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABrQzpcVXNlcnNcQURCSV8xMDFcRGVza3RvcFxCSUdBUFBTXGRldlxwcm9qZXRfcGVyc29ubmVsXGludHJvZHVjdGlvbi13aXRoLXNwYXJrXEthZmthQ29uc3VtZXJcdGFyZ2V0XGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ47HnOUWN2u3BrebOSkAlNWwxbpQ==
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwflGuBAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAApc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwRHOgxHQABm5vdGlmeXNxAH4ADIj7c9B0AAd1bmFwcGx5c3EAfgAMBUCFCnQAB2N1cnJpZWRzcQB+AAwGQTEfdAAEd2FpdHNxAH4ADJjnUr50AA5jb3B5JGRlZmF1bHQkMnNxAH4ADCuHzYB0AA0kYXNJbnN0YW5jZU9mc3EAfgAMYNhGoHQADHByb2R1Y3RBcml0eXNxAH4ADOTyNBl0AAZlcXVhbHNzcQB+AAw+5CkUdAADYWlkc3EAfgAMT54IiXQAB0RvbWFpbnNzcQB+AAzk5YFTdAAMYXNJbnN0YW5jZU9mc3EAfgAMsRIfEHQADHN5bmNocm9uaXplZHNxAH4ADH6st1J0AA0kaXNJbnN0YW5jZU9mc3EAfgAMYD+KI3QABnR1cGxlZHNxAH4ADId7zrx0AAhjYW5FcXVhbHNxAH4ADNHOwEF0AA5jb3B5JGRlZmF1bHQkNHNxAH4ADIk5dZJ0AA1wcm9kdWN0UHJlZml4c3EAfgAMZS1FdnQACW5vdGlmeUFsbHNxAH4ADNAERTR0AAxpc0luc3RhbmNlT2ZzcQB+AAxTWtNgdAAGPGluaXQ+c3EAfgAMdfkb4nQABWFwcGx5c3EAfgAMwYMl73QAAj09c3EAfgAMLcwc0nQABWNsb25lc3EAfgAMgV8YyXQABWFuYW1lc3EAfgAMdctrhXQABiRpbml0JHNxAH4ADJ+Z8Tl0AA5jb3B5JGRlZmF1bHQkM3NxAH4ADDdJF7J0AARjb3B5c3EAfgAMNbNt3HQACHRvU3RyaW5nc3EAfgAMcu7H23QAAiE9c3EAfgAMBHUdznQACGdldENsYXNzc3EAfgAMrY3XXnQADmNvcHkkZGVmYXVsdCQxc3EAfgAMnw9sV3QAB1Byb2R1Y3RzcQB+AAzKLEv+dAAJYXF1YW50aXR5c3EAfgAMCh8TcXQAAm5lc3EAfgAMeurqgHQABmFwcmljZXNxAH4ADG+hiU10AAJlcXNxAH4ADPkkTip0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAxPiaI7dAACIyNzcQB+AAytlGindAAIZmluYWxpemVzcQB+AAycRvJ9dAAOcHJvZHVjdEVsZW1lbnRzcQB+AAwHeTYUdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBpeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAXY29tLnRlc3QuZG9tYWluLkRvbWFpbnN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AaUwACWluaGVyaXRlZHEAfgBpTAAHcGFyZW50c3EAfgBpeHEAfgCGc3EAfgCBdXEAfgBkAAAAAHNxAH4AgXVxAH4AZAAAAABzcQB+AIF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIV0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AJ50AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJ9zcQB+AJJ0AANBbnlzcQB+AJZzcQB+AJl1cQB+AJwAAAACc3EAfgCedAAFc2NhbGFxAH4ApXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAD2NvbS50ZXN0LmRvbWFpbnNxAH4Ar3QACGNvbS50ZXN0c3EAfgCvdAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFxu9rqj3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AGtDOlxVc2Vyc1xBREJJXzEwMVxEZXNrdG9wXEJJR0FQUFNcZGV2XHByb2pldF9wZXJzb25uZWxcaW50cm9kdWN0aW9uLXdpdGgtc3BhcmtcS2Fma2FDb25zdW1lclx0YXJnZXRcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFHfHPO6GF9PaRSlQqCvpY6ePgZ3V
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwzzDdywAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw5s4YF3QABm5vdGlmeXNxAH4ADDeiFlx0AAR3YWl0c3EAfgAMUMR2S3QADSRhc0luc3RhbmNlT2ZzcQB+AAxFv1UodAAGZXF1YWxzc3EAfgAMDb30tXQADGFzSW5zdGFuY2VPZnNxAH4ADKxm14R0AAxzeW5jaHJvbml6ZWRzcQB+AAzWJxGFdAANJGlzSW5zdGFuY2VPZnNxAH4ADLXLmaR0AARtYWluc3EAfgAMe3qrUnQACW5vdGlmeUFsbHNxAH4ADPzvx9x0AAxpc0luc3RhbmNlT2ZzcQB+AAyLnhAEdAACPT1zcQB+AAxV9be0dAAFY2xvbmVzcQB+AAxlKcoqdAAIdG9TdHJpbmdzcQB+AAxoLwTEdAACIT1zcQB+AAwZUZWUdAAIZ2V0Q2xhc3NzcQB+AAzIGFwzdAASUHJvZHVjdEFwcENvbnN1bWVyc3EAfgAMVMUfqnQAAm5lc3EAfgAMV9KRN3QAAmVxc3EAfgAML0uNQnQAAiMjc3EAfgAMQLVxcHQACGZpbmFsaXplc3EAfgAMKs10n3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAG2NvbS50ZXN0LlByb2R1Y3RBcHBDb25zdW1lcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AF5zcQB+AFl1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB11cQB+AFEAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHl1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBmeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBUdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBtWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBdc3EAfgBsdAAFQXJyYXlxAH4AcnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBsdAAGU3RyaW5nc3EAfgBwc3EAfgBzdXEAfgB2AAAAA3NxAH4AeHQABGphdmFzcQB+AHh0AARsYW5ncQB+AH1zcQB+AFl1cQB+ADwAAAAAc3EAfgBZdXEAfgCRAAAAAnNxAH4AbHQABk9iamVjdHEAfgCVc3EAfgBsdAADQW55cQB+AHJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAhjb20udGVzdHNxAH4ApnQAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcbva6o91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABrQzpcVXNlcnNcQURCSV8xMDFcRGVza3RvcFxCSUdBUFBTXGRldlxwcm9qZXRfcGVyc29ubmVsXGludHJvZHVjdGlvbi13aXRoLXNwYXJrXEthZmthQ29uc3VtZXJcdGFyZ2V0XGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABS8bqwRHcth0u+val9oi84Y6MShGg==
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwtN3iawAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAcc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwD27fKHQAGmlucHV0RHNtVG9Qcm9kdWN0QW5kS2V5RHNtc3EAfgAMl9gjl3QABm5vdGlmeXNxAH4ADOe9JV10ABhnZXRTZXRDb25zdW1lclByb3BlcnRpZXNzcQB+AAwGj3N3dAAEd2FpdHNxAH4ADA8VLj90AA0kYXNJbnN0YW5jZU9mc3EAfgAMxUC/AHQABmVxdWFsc3NxAH4ADFKm61R0AAxhc0luc3RhbmNlT2ZzcQB+AAwavpcndAAMc3luY2hyb25pemVkc3EAfgAMfePo7nQADSRpc0luc3RhbmNlT2ZzcQB+AAzitzMldAAUS2Fma2FDb25zdW1lclNlcnZpY2VzcQB+AAxU2yXvdAAJbm90aWZ5QWxsc3EAfgAMIA706XQADGlzSW5zdGFuY2VPZnNxAH4ADGR+ZVd0AAtjcmVhdGVUYWJsZXNxAH4ADK0iGIt0ABFpbnNlcnRUb0Nhc3NhbmRyYXNxAH4ADKhn1U10AAt1cGRhdGVTdGF0ZXNxAH4ADFt5K+h0AAVwYXJzZXNxAH4ADM9Rzy10AAI9PXNxAH4ADLpIVSx0ABRpbnB1dERzbVRvUHJvZHVjdERzbXNxAH4ADPIqY0l0AAVjbG9uZXNxAH4ADF8pBdR0AAxvYmplY3RNYXBwZXJzcQB+AAwMnTNWdAAIdG9TdHJpbmdzcQB+AAzyG6VRdAACIT1zcQB+AAzc+agwdAAIZ2V0Q2xhc3NzcQB+AAzERWtedAACbmVzcQB+AAya3HC/dAACZXFzcQB+AAzHHkMNdAACIyNzcQB+AAwWOs8OdAAIZmluYWxpemVzcQB+AAzM3vlcdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBPeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAmY29tLnRlc3Quc2VydmljZXMuS2Fma2FDb25zdW1lclNlcnZpY2V1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGdzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AT0wACWluaGVyaXRlZHEAfgBPTAAHcGFyZW50c3EAfgBPeHEAfgBsc3EAfgBndXEAfgBKAAAAAHNxAH4AZ3VxAH4ASgAAAABzcQB+AGd1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGt0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGtzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIR0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIVzcQB+AHh0AANBbnlzcQB+AHxzcQB+AH91cQB+AIIAAAACc3EAfgCEdAAFc2NhbGFxAH4Ai3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACGNvbS50ZXN0c3EAfgCVdAADY29tc3EAfgCVdAARY29tLnRlc3Quc2VydmljZXNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAXG72uqPdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAa0M6XFVzZXJzXEFEQklfMTAxXERlc2t0b3BcQklHQVBQU1xkZXZccHJvamV0X3BlcnNvbm5lbFxpbnRyb2R1Y3Rpb24td2l0aC1zcGFya1xLYWZrYUNvbnN1bWVyXHRhcmdldFxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU+gk+V7fgxim9HfQsavMHWCcUCSQ=
+external apis:
+0 items
+source infos:
+4 items
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\configurations\KafkaConfigs.scala -> 
+AAAAAAAAAAA=
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\domain\Domains.scala -> 
+AAAAAAAAAAA=
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\ProductAppConsumer.scala -> 
+AAAAAAAAAAA=
+C:\Users\ADBI_101\Desktop\BIGAPPS\dev\projet_personnel\introduction-with-spark\KafkaConsumer\src\main\scala\com\test\services\KafkaConsumerService.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABcbva6o91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAa0M6XFVzZXJzXEFEQklfMTAxXERlc2t0b3BcQklHQVBQU1xkZXZccHJvamV0X3BlcnNvbm5lbFxpbnRyb2R1Y3Rpb24td2l0aC1zcGFya1xLYWZrYUNvbnN1bWVyXHRhcmdldFxjbGFzc2VzdAABLw==

@@ -1,19 +1,16 @@
 package com.test.services
 
 import com.datastax.driver.core.Cluster
+import com.datastax.spark.connector._
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.test.configurations.KafkaConfigs
 import com.test.domain.Domains.Product
-import org.apache.kafka.common.internals.PartitionStates.PartitionState
 import org.apache.kafka.common.serialization.{LongDeserializer, StringDeserializer}
-import org.apache.spark.streaming.{State, StreamingContext}
 import org.apache.spark.streaming.dstream.InputDStream
 import org.apache.spark.streaming.kafka010.ConsumerStrategies.Subscribe
 import org.apache.spark.streaming.kafka010.KafkaUtils
 import org.apache.spark.streaming.kafka010.LocationStrategies.PreferConsistent
-import com.datastax.spark.connector._
-import com.datastax.driver.core.Cluster
-import com.datastax.driver.core.Session
+import org.apache.spark.streaming.{State, StreamingContext}
 
 object KafkaConsumerService {
 
@@ -29,8 +26,8 @@ object KafkaConsumerService {
 
     val kafkaParams = Map[String, Object](
       "bootstrap.servers" -> bootstrapServer,
-      "key.deserializer" -> classOf[LongDeserializer],
-      "value.deserializer" -> classOf[StringDeserializer],
+      "key.deserializer" ->"org.apache.kafka.common.serialization.LongDeserializer",
+      "value.deserializer" -> "org.apache.kafka.common.serialization.StringDeserializer",
       "group.id" -> "use_a_separate_group_id_for_each_stream",
       "auto.offset.reset" -> "latest",
       "enable.auto.commit" -> (false: java.lang.Boolean)
@@ -38,11 +35,11 @@ object KafkaConsumerService {
 
     println(s"Starting....Listen to Server ${bootstrapServer}")
 
-    println(s"Waiting Data from ==>  ${topic}")
+    println(s"Waiting Data from topic ==>  ${topic}")
 
-    val topicsSet = Array("Product")
+    val topicsSet = Array(topic)
 
-    KafkaUtils.createDirectStream(ssc, PreferConsistent, Subscribe[Long,String](topicsSet,kafkaParams))
+    org.apache.spark.streaming.kafka010.KafkaUtils.createDirectStream(ssc, PreferConsistent, Subscribe[Long,String](topicsSet,kafkaParams))
   }
 
   def inputDsmToProductAndKeyDsm(stream: InputDStream[org.apache.kafka.clients.consumer.ConsumerRecord[Long, String]]): org.apache.spark.streaming.dstream.DStream[(String,Product)] = {

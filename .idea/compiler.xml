@@ -9,10 +9,12 @@
         <module name="KafkaConsumer" />
         <module name="introduction-with-spark1" />
         <module name="kafkaProducer" />
+        <module name="producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="kafkaConsumer" target="1.8" />
+      <module name="kafkaProducer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
