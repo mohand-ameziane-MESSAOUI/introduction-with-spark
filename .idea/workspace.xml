@@ -715,6 +715,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="mettre les donnée dans cassandra" />
-    <option name="LAST_COMMIT_MESSAGE" value="mettre les donnée dans cassandra" />
+    <MESSAGE value="exemple nombre sales" />
+    <option name="LAST_COMMIT_MESSAGE" value="exemple nombre sales" />
   </component>
 </project>
