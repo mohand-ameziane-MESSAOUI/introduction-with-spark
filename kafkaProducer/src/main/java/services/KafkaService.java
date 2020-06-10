@@ -33,7 +33,6 @@ public class KafkaService {
 
     public void sending(Product p) throws IOException {
         ProducerRecord<Long, String> record = new ProducerRecord<>(KafkaConfig.TOPIC_PRODUCT,objectMapper.writeValueAsString(p));
-
         //producer.send(record);
         //System.out.println("send product ==> " + producer.send(record).get());
         try {
@@ -42,7 +41,7 @@ public class KafkaService {
         }
         catch (ExecutionException | InterruptedException e) {
             System.out.println("Error in sending record");
-            System.out.println(e);
+            System.out.println("exeption : "+e);
         }
 
     }

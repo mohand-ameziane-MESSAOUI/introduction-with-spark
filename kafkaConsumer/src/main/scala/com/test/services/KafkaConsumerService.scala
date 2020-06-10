@@ -4,9 +4,10 @@ import com.datastax.driver.core.Cluster
 import com.datastax.spark.connector._
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.test.configurations.KafkaConfigs
-import com.test.domain.Domains.Product
+import com.test.domain.Domains.{Product, ProductAndNbSales}
+import org.apache.kafka.clients.consumer.ConsumerRecord
 import org.apache.kafka.common.serialization.{LongDeserializer, StringDeserializer}
-import org.apache.spark.streaming.dstream.InputDStream
+import org.apache.spark.streaming.dstream.{DStream, InputDStream}
 import org.apache.spark.streaming.kafka010.ConsumerStrategies.Subscribe
 import org.apache.spark.streaming.kafka010.KafkaUtils
 import org.apache.spark.streaming.kafka010.LocationStrategies.PreferConsistent
@@ -15,8 +16,6 @@ import org.apache.spark.streaming.{State, StreamingContext}
 object KafkaConsumerService {
 
   val objectMapper = new ObjectMapper()
-  // objectMapper.registerModule(DefaultScalaModule)
-
   def parse(json: String): Product = {
     objectMapper.readValue(json, classOf[Product])
   }
@@ -39,7 +38,7 @@ object KafkaConsumerService {
 
     val topicsSet = Array(topic)
 
-    org.apache.spark.streaming.kafka010.KafkaUtils.createDirectStream(ssc, PreferConsistent, Subscribe[Long,String](topicsSet,kafkaParams))
+    KafkaUtils.createDirectStream(ssc, PreferConsistent, Subscribe[Long,String](topicsSet,kafkaParams))
   }
 
   def inputDsmToProductAndKeyDsm(stream: InputDStream[org.apache.kafka.clients.consumer.ConsumerRecord[Long, String]]): org.apache.spark.streaming.dstream.DStream[(String,Product)] = {
@@ -51,62 +50,34 @@ object KafkaConsumerService {
       );
 
   }
-
-  def inputDsmToProductDsm(stream: InputDStream[org.apache.kafka.clients.consumer.ConsumerRecord[Long, String]]): org.apache.spark.streaming.dstream.DStream[Product] = {
+  def inputDsmToProductDsm(stream: InputDStream[ConsumerRecord[Long, String]]): DStream[Product] = {
     stream
-      .map( record =>{
-        parse(record.value)
-      }
-      );
-
+      .map( record => parse(record.value));
   }
 
-  def updateState() : (String, Option[Product], State[Product]) => Any = {
+  def updateState() : (String, Option[Product], State[Long]) => Option[Any] = {
 
-    val updateState = (productName: String, product: Option[Product], stateProduct: State[Product]) => {
+    val updateState = (productName: String, product: Option[Product], stateNbSales: State[Long]) => {
 
-      val defaultProduct = Product(0,productName,Double.MaxValue,0)
+      (product, stateNbSales.getOption()) match {
 
-      val prevMinPrice: Option[Product] = stateProduct.getOption()
+        case (Some(product), None) =>
+          stateNbSales.update(1)
+          Some(productName, stateNbSales)
 
-      val productMin : Product = product.getOrElse(defaultProduct)
+        case (Some(product), Some(nbSales)) =>
+          stateNbSales.update(nbSales + 1)
+          Some(productName, stateNbSales)
 
-      (prevMinPrice, productMin) match {
+        case (None, Some(nbSales)) => Some(productName, nbSales)
 
-        case (None,minPrice) => {
-          println(s">>> -----------------1---------------- <<<")
-          println(s"==> State =   $stateProduct ")
-          println(s"Current Product = $product ")
-          println()
-          println("------  Product that has Max quantity -------")
-          println(s" $minPrice ")
-          stateProduct.update(minPrice)
-          Some(minPrice.aname,product,minPrice)
-
-        }
-
-        case (Some(prevMinPrice),currentProd) => {
-          if(prevMinPrice.aprice > currentProd.aprice) {
-            println(s">>> ----------------2----------------- <<<")
-            println(s"==> State = $stateProduct ")
-            println(s"Current Product = $product ")
-            println()
-            println("------  Product that have Max quantity -------")
-            println(s" $currentProd ")
-            stateProduct.update(currentProd)
-            Some(currentProd.aname, product, currentProd)
-          }
-
-        }
+        case _ => None
       }
     }
     updateState
   }
 
   def createTable (kesSpace: String ,queryCreateTable: String): Unit = {
-
-
-
         //Creating Cluster object
         val cluster = Cluster.builder.addContactPoint(KafkaConfigs.CASSANDRA_SERVERS).build
 
@@ -120,9 +91,11 @@ object KafkaConsumerService {
   }
 
 
-  def insertToCassandra(productDSm: org.apache.spark.streaming.dstream.DStream[Product], keyspace: String, table: String): Unit ={
-    productDSm.foreachRDD(rdd => {
+  def insertToCassandra(ProductAndNbSalesDSm: org.apache.spark.streaming.dstream.DStream[ProductAndNbSales], keyspace: String, table: String): Unit ={
+    ProductAndNbSalesDSm.print()
+    ProductAndNbSalesDSm.foreachRDD(rdd => {
       if (!rdd.isEmpty()){
+        print("======================rdd==========================",rdd)
         rdd.saveToCassandra(keyspace, table)
       }
     })
